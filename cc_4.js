@@ -11,4 +11,17 @@ if (purchaseAmount > 100) {
     };
 
 
+//Task 2: For Loop
+
+let sales = [120, 85, 200, 150, 90]; //declared an array with 5 sales figures
+let total = 0; //declared an array for total sales value
+
+for (let i = 0; i < sales.length; i++) {  //used for loop to calculate total sales 
+    total = total + sales[i];
+    
+}
+
+console.log(`Total sales: $${total}`); 
+
+
 
