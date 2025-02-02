@@ -34,3 +34,13 @@ console.log(`# of stock: $${stock}`) //logged each decrement to the console
 };
 
 
+//Task 4: Do...While Loop
+
+let responses = 0; //delared a variable with an initial value of 0
+
+do {
+    console.log(`Response collected: ${responses + 1}`) //used do.. while loop. Each response adds 1 to responses
+    responses++;
+    
+} while (responses < 3); //loop continues until it reaches 3 
+
