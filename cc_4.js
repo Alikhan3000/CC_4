@@ -24,4 +24,13 @@ for (let i = 0; i < sales.length; i++) {  //used for loop to calculate total sal
 console.log(`Total sales: $${total}`); 
 
 
+//Task 3: While Loop
+
+let stock = 10; //declared a variable with a value of 10
+
+while (stock > 0) {   //used while loop for stock (until stock reaches 0) 
+console.log(`# of stock: $${stock}`) //logged each decrement to the console 
+    stock -= 1; //each iteration decreases stock by 1 with 
+};
+
 
