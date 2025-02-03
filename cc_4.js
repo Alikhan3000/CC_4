@@ -90,3 +90,15 @@ let tax = calculateTax(amount, tax_rate);   //declared a variable to store the c
 //logged the amount, tax rate, and calculated tax.
 console.log(`Your payment is $${amount} and your tax is $${tax} at a 5% tax rate.`)
 
+//Task 9: Function Expressions
+
+let price = 500;    //declared 2 variables to be used in applyDiscount function
+let discount = 0.50;
+
+let applyDiscount = function(price, discount){ //this function takes price and multiplies it by 1 - discount % 
+    return price * (1 - discount);
+};
+
+let discountPrice = applyDiscount(price, discount); //declared a variable to store the discounted price value
+
+console.log(`Discounted price: $${discountPrice}`);
