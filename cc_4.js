@@ -63,8 +63,16 @@ for (let property in employee) {            //declared property, which contain t
 let products = ["Laptop", "Mouse", "Keyboard"]; //declared an array with 3 product names and logged each product name with for...of
 
 for (let product of products) {
-    console.log(`Product name: ${product}`)
+    console.log(`Product name: ${product}`);
     
 };
 
-//
+//Task 7: forEach() Method
+
+let orders = [101, 102, 103]; //declared an array with 3 numerical values
+
+orders.forEach(order => {      //used forEach() method to log each ID 
+    console.log(`Order ID: ${order}`);
+});
+
+
