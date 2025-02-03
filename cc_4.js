@@ -102,3 +102,15 @@ let applyDiscount = function(price, discount){ //this function takes price and m
 let discountPrice = applyDiscount(price, discount); //declared a variable to store the discounted price value
 
 console.log(`Discounted price: $${discountPrice}`);
+
+
+//Task 10: Arrow Functions
+
+const calculatePoints = (cash) => cash/10;  //declared an arrow function with 1 variable "cash", which is divided by 10
+
+let cash = 99; //declared a variable for calculatePoints function
+let total_points = calculatePoints(cash); //declared a variable to store calculatePoints value
+console.log(`You have ${Math.floor(total_points)} loyalty points earned`);
+
+//logged total points earned (1 point per $10 spent)
+//Math.floor(total_points) rounds down to the previous integer, so you really get 1 point for every $10 spent
