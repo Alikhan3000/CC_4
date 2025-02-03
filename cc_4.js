@@ -57,3 +57,14 @@ for (let property in employee) {            //declared property, which contain t
     console.log(`${property}: ${employee[property]}`);
         
     }
+
+//Task 6: For...Of Loop
+
+let products = ["Laptop", "Mouse", "Keyboard"]; //declared an array with 3 product names and logged each product name with for...of
+
+for (let product of products) {
+    console.log(`Product name: ${product}`)
+    
+};
+
+//
