@@ -75,4 +75,18 @@ orders.forEach(order => {      //used forEach() method to log each ID
     console.log(`Order ID: ${order}`);
 });
 
+//Task 8: Function Declaration
+
+let amount = 100     //declared 2 variabls to be used in calculateTax function
+let tax_rate = 0.05
+
+
+function calculateTax(amount, tax_rate) {   //this function takes the amount and multiplies it by 5% tax rate
+    return amount * tax_rate;               //returns calculated tax
+};
+
+let tax = calculateTax(amount, tax_rate);   //declared a variable to store the calculated tax 
+
+//logged the amount, tax rate, and calculated tax.
+console.log(`Your payment is $${amount} and your tax is $${tax} at a 5% tax rate.`)
 
