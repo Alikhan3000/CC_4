@@ -44,3 +44,16 @@ do {
     
 } while (responses < 3); //loop continues until it reaches 3 
 
+//Task 5: For...In Loop
+
+let employee = {    //declared an object with 3 properties
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+
+};
+//used for...in loop to iterate through the object properties
+for (let property in employee) {            //declared property, which contain the object's properties in the object itself 
+    console.log(`${property}: ${employee[property]}`);
+        
+    }
